@@ -1,0 +1,20 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"flags": {
+			"is_sneaking": true
+		},
+		"equipment": {
+			"offhand": {
+				"count": 3,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.opal\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:melee_weapon",
+				"enchantments": [ { "enchantment": "looting", "levels": 2 } ]
+			}
+		}
+	}
+}

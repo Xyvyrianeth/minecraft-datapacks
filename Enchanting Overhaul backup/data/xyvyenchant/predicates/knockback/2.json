@@ -1,0 +1,20 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"flags": {
+			"is_sneaking": true
+		},
+		"equipment": {
+			"offhand": {
+				"count": 2,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.platinum\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:melee_weapon",
+				"enchantments": [ { "enchantment": "knockback", "levels": 1 } ]
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+function xyvyenchant:detect/sunstone
+function xyvyenchant:detect/moonstone
+function xyvyenchant:detect/bloodstone
+function xyvyenchant:detect/jade
+function xyvyenchant:detect/platinum
+function xyvyenchant:detect/pearl
+function xyvyenchant:detect/opal
+function xyvyenchant:detect/pyrite
+function xyvyenchant:detect/larimar
+function xyvyenchant:detect/onyx
+function xyvyenchant:detect/malachite

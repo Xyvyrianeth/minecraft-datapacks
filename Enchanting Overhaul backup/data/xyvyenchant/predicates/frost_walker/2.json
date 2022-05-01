@@ -1,0 +1,20 @@
+{
+	"condition": "entity_properties",
+	"entity": "this",
+	"predicate": {
+		"flags": {
+			"is_sneaking": true
+		},
+		"equipment": {
+			"offhand": {
+				"count": 2,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.moonstone\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:boots",
+				"enchantments": [ { "enchantment": "frost_walker", "levels": 1 } ]
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+{ "type": "minecraft:block", "pools": [ { "rolls": 1, "entries": [ { "type": "minecraft:group", "children": [
+
+	{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/pearl", "conditions": [ { "condition": "minecraft:alternative", "terms": [
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:warm_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:lukewarm_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:cold_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:frozen_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_lukewarm_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_cold_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_frozen_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:river" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:frozen_river" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:beach" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:snowy_beach" } } } ] } ] },
+
+	{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/pyrite", "conditions": [ { "condition": "minecraft:alternative", "terms": [
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:river" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:frozen_river" } } } ] } ] },
+
+	{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/larimar", "conditions": [ { "condition": "minecraft:alternative", "terms": [
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:warm_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:lukewarm_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:cold_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:frozen_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_lukewarm_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_cold_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:deep_frozen_ocean" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:river" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:frozen_river" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:beach" } } },
+		{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": { "location": {
+			"biome": "minecraft:snowy_beach" } } } ] } ] }
+
+] } ] } ] }

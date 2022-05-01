@@ -1,0 +1,33 @@
+[
+	{
+		"condition": "entity_properties",
+		"entity": "this",
+		"predicate": {
+			"flags": {
+				"is_sneaking": true
+			},
+			"equipment": {
+				"offhand": {
+					"count": 1,
+					"items": [ "amethyst_shard" ],
+					"nbt": "{Tags:[\"xyvyenchant.malachite\"]}"
+				},
+				"mainhand": { "tag": "xyvyenchant:all_items" }
+			}
+		}
+	},
+	{
+		"condition": "inverted",
+		"term": {
+			"condition": "alternative",
+			"terms": [
+				{ "condition": "entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "mending" } ] } } } },
+				{ "condition": "entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "infinity" } ] } } } }
+			]
+		}
+	}
+]

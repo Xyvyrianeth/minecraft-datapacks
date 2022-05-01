@@ -1,0 +1,6 @@
+{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
+	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
+		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.pyrite\"],CustomModelData:8}"},
+		{ "function": "minecraft:set_name", "name": { "text": "Pyrite", "color": "#DDBA44", "italic": false } },
+		{ "function": "minecraft:set_lore", "lore": [
+			{ "text": "[DESCRIPTION]", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }
