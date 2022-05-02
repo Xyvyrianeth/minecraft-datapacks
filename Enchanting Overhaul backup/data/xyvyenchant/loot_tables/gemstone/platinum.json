@@ -1,6 +1,0 @@
-{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
-	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
-		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.platinum\"],CustomModelData:5}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Platinum", "color": "#E5E4E2", "italic": false } },
-		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "[DESCRIPTION]", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

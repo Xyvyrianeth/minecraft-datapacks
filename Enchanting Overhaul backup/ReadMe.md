@@ -1,3 +1,5 @@
+Textures by [@Tera_Katzen](https://twitter.com/Tera_Katzen)
+
 ## Enchanting Station
 I wanted to simply use a smithing table to apply enchantments like how you upgrade to netherite, but apparently crafting recipes don't allow NBT manipulation and I can't apply enchantments with it, so I settled for a fake smithing table that you just have to look at.
 
@@ -26,3 +28,34 @@ To remove this station, simply destroy the block below it. Trying to place it in
 - 3rd level - 3 gemstones
 - 4th level - 5 gemstones
 - 5th level - 8 gemstones
+
+---
+
+# How to Get Gemstones
+
+Sifting
+ - Direct a hopper to the top of a scaffold and fill it with sand or gravel. The sand and gravel will sift through the net on the scaffold and drop a gemstone.
+ - Has a 1/200 chance of dropping a gemstone.
+ - Consumes all sand and gravel.
+ - Drops:
+	- Pearl
+	- Larimar
+	- Pyrite
+
+Mining
+ - Simply digging through the earth has a chance of dropping gemstones.
+ - Ores only drop one type of gemstone.
+ - Depth also influences drop rates.
+ - Drops:
+	- Sunstone
+	- Moonstone
+	- Platinum
+	- Opal
+	- Onyx
+
+Chests
+ - Generated structures with chests will also have gemstones.
+ - Bloodstone
+
+Trades
+ - Some villagers can now sell gemstones.

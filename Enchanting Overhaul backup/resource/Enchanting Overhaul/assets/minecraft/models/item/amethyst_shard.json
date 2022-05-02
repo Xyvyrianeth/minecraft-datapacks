@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/amethyst_shard"
+  },
+
+  "overrides": [
+    { "predicate": { "custom_model_data": 9141450 }, "model": "xyvyenchant:item/gemstone/bloodstone" },
+    { "predicate": { "custom_model_data": 9141451 }, "model": "xyvyenchant:item/gemstone/jade" },
+    { "predicate": { "custom_model_data": 9141452 }, "model": "xyvyenchant:item/gemstone/larimar" },
+    { "predicate": { "custom_model_data": 9141453 }, "model": "xyvyenchant:item/gemstone/malachite" },
+    { "predicate": { "custom_model_data": 9141454 }, "model": "xyvyenchant:item/gemstone/moonstone" },
+    { "predicate": { "custom_model_data": 9141455 }, "model": "xyvyenchant:item/gemstone/onyx" },
+    { "predicate": { "custom_model_data": 9141456 }, "model": "xyvyenchant:item/gemstone/opal" },
+    { "predicate": { "custom_model_data": 9141457 }, "model": "xyvyenchant:item/gemstone/pearl" },
+    { "predicate": { "custom_model_data": 9141458 }, "model": "xyvyenchant:item/gemstone/platinum" },
+    { "predicate": { "custom_model_data": 9141459 }, "model": "xyvyenchant:item/gemstone/pyrite" },
+    { "predicate": { "custom_model_data": 9141460 }, "model": "xyvyenchant:item/gemstone/sunstone" }
+  ]
+}

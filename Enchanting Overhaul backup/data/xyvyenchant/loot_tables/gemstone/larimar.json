@@ -1,6 +1,0 @@
-{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
-	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
-		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.larimar\"],CustomModelData:9}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Larimar", "color": "#2FDEDE", "italic": false } },
-		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "[DESCRIPTION]", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

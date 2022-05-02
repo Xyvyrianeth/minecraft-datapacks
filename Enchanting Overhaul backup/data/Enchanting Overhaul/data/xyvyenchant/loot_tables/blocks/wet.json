@@ -1,0 +1,9 @@
+{ "type": "minecraft:block", "pools": [ { "rolls": 1, "entries": [ { "type": "minecraft:group", "children": [
+
+	{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/pearl" },
+
+	{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/pyrite" },
+
+	{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/larimar" }
+
+] } ] } ] }

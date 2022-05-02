@@ -1,0 +1,6 @@
+{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
+	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
+		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.bloodstone\"],CustomModelData:9141450}"},
+		{ "function": "minecraft:set_name", "name": { "text": "Bloodstone", "color": "#A80000", "italic": false } },
+		{ "function": "minecraft:set_lore", "lore": [
+			{ "text": "Rough against flesh", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

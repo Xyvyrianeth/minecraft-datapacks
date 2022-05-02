@@ -1,0 +1,6 @@
+{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
+	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
+		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.opal\"],CustomModelData:9141456}"},
+		{ "function": "minecraft:set_name", "name": { "text": "Opal", "color": "#8878D6", "italic": false } },
+		{ "function": "minecraft:set_lore", "lore": [
+			{ "text": "Gaze within to see Infinity", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

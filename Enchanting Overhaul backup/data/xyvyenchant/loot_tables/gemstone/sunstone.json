@@ -1,6 +1,0 @@
-{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
-	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
-		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.sunstone\"],CustomModelData:1}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Sunstone", "color": "#F9E8CF", "italic": false } },
-		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "[DESCRIPTION]", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

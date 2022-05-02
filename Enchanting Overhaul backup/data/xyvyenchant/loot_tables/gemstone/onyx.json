@@ -1,6 +1,0 @@
-{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
-	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
-		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.onyx\"],CustomModelData:10}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Onyx", "color": "#353935", "italic": false } },
-		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "[DESCRIPTION]", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }
