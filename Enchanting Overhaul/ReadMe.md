@@ -29,7 +29,6 @@ To destroy the station, simply remove the block beneath it. Trying to create it 
 | Onyx | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking |
 | Malachite | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending |
 
-## Enchantment Levels
 All enchantments can only be raised to their normal levels.
 - 1st level - 1 gemstone (1 total)
 - 2nd level - 2 gemstones (3 total)
