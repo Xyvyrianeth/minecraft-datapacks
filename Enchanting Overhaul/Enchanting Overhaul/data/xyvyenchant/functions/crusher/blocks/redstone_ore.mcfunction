@@ -1,0 +1,2 @@
+loot replace entity @s container.0 loot xyvyenchant:crusher/redstone_ore
+playsound minecraft:block.anvil.place master @a
