@@ -345,6 +345,35 @@
             }
           ],
           "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/onyx"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/moonstone"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/bloodstone"
+            }
+          ]
         }
       ]
     }

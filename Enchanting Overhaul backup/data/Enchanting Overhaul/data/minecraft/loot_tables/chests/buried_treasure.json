@@ -124,6 +124,22 @@
             }
           ],
           "name": "minecraft:prismarine_crystals"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "name": "xyvyenchant:gemstone/pearl"
         }
       ]
     },

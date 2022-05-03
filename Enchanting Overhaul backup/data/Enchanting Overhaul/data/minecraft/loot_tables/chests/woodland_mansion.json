@@ -211,6 +211,35 @@
             }
           ],
           "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "type": "minecraft:group",
+		  "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/jade"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/malachite"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/opal"
+            }
+          ]
         }
       ]
     },

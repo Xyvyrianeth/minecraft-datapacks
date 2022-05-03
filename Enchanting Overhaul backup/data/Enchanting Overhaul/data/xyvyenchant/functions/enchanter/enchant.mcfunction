@@ -1,0 +1,1 @@
+execute as @s if predicate xyvyenchant:looking_at_station run function xyvyenchant:enchanter/gemstone

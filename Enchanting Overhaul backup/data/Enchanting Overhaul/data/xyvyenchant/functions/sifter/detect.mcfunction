@@ -1,6 +1,2 @@
-execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper[facing=down]{Items:[{Slot:0b,id: "minecraft:sand",Count:1b}]} unless block ~ ~1 ~ hopper{Items:[{Slot:4b}]} run function xyvyenchant:sifter/sand
-execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper[facing=down]{Items:[{Slot:0b,id: "minecraft:gravel",Count:1b}]} unless block ~ ~1 ~ hopper{Items:[{Slot:4b}]} run function xyvyenchant:sifter/gravel
-execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper[facing=down]{Items:[{Slot:0b,id: "minecraft:red_sand",Count:1b}]} unless block ~ ~1 ~ hopper{Items:[{Slot:4b}]} run function xyvyenchant:sifter/red_sand
-execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper{Items:[{Slot:4b}]} run data modify block ~ ~1 ~ TransferCooldown set value 10
-execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper{Items:[{Slot:4b}]} run data modify block ~ ~1 ~ TransferCooldown set value 10
-execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper{Items:[{Slot:4b}]} run data modify block ~ ~1 ~ TransferCooldown set value 10
+execute as @e[type=item_frame,nbt={Facing:0b,Item:{id:"minecraft:iron_bars"}}] at @s if block ~ ~1 ~ hopper[facing=down] run function xyvyenchant:sifter/sift
+execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper[facing=down] unless data entity @s Item{id:"minecraft:iron_bars"} run data modify entity @s Invisible set value 0b

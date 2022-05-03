@@ -3,4 +3,4 @@
 		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.larimar\"],CustomModelData:9141452}"},
 		{ "function": "minecraft:set_name", "name": { "text": "Larimar", "color": "#358DC9", "italic": false } },
 		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "Soft veins flow like rivers", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }
+			{ "text": "Its soft veins flow like rivers", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

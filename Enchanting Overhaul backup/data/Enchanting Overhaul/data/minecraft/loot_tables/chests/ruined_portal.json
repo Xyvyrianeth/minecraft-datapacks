@@ -263,6 +263,31 @@
             }
           ],
           "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1.0,
+                "max": 3.0
+              },
+              "add": false
+            }
+          ],
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/bloodstone"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "xyvyenchant:gemstone/moonstone"
+            }
+          ]
         }
       ]
     }
