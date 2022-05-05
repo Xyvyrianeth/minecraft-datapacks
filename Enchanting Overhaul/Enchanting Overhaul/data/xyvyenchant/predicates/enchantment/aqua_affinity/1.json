@@ -12,7 +12,7 @@
 					"items": [ "amethyst_shard" ],
 					"nbt": "{Tags:[\"xyvyenchant.larimar\"]}"
 				},
-				"mainhand": { "tag": "xyvyenchant:helmet" }
+				"mainhand": { "tag": "xyvyenchant:helmets" }
 			}
 		}
 	},
