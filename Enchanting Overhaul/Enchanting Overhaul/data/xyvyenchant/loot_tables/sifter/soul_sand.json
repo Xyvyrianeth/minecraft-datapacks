@@ -1,5 +1,4 @@
 { "type": "minecraft:generic", "pools": [
 	{ "rolls": 1, "entries": [
 		{ "type": "minecraft:group", "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.025 } ], "children": [
-			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/bloodstone", "weight": 3 },
-			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/jade", "weight": 2 } ] } ] } ] }
+			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/malachite" } ] } ] } ] }
