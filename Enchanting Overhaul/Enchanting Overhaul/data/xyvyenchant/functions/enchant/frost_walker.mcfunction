@@ -1,4 +1,4 @@
-item modify entity @s weapon.mainhand xyvyenchant:channeling
+item modify entity @s weapon.mainhand xyvyenchant:frost_walker
 item replace entity @s weapon.offhand with minecraft:air
 playsound minecraft:entity.villager.work_weaponsmith master @a
 playsound minecraft:block.enchantment_table.use master @a
