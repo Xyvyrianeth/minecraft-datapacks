@@ -12,12 +12,6 @@
 				"tag": "xyvyenchant:melee_weapon",
 				"enchantments": [ { "enchantment": "sharpness", "levels": 3 } ]
 			}
-		},
-		"player": {
-			"looking_at": {
-				"nbt": "{Tags:[\"xyvyenchant.station_shulker\"]}",
-				"distance": { "absolute": { "max": 3 } }
-			}
 		}
 	}
 }
