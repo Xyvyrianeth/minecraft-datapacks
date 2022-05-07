@@ -4,19 +4,13 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"count": 2,
+				"count": 1,
 				"items": [ "amethyst_shard" ],
 				"nbt": "{Tags:[\"xyvyenchant.bloodstone\"]}"
 			},
 			"mainhand": {
 				"tag": "xyvyenchant:melee_weapon",
 				"enchantments": [ { "enchantment": "sharpness", "levels": 1 } ]
-			}
-		},
-		"player": {
-			"looking_at": {
-				"nbt": "{Tags:[\"xyvyenchant.station_shulker\"]}",
-				"distance": { "absolute": { "max": 3 } }
 			}
 		}
 	}

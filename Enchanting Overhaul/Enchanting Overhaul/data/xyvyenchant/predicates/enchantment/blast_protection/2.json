@@ -4,7 +4,7 @@
 	"predicate": {
 		"equipment": {
 			"offhand": {
-				"count": 2,
+				"count": 1,
 				"items": [ "amethyst_shard" ],
 				"nbt": "{Tags:[\"xyvyenchant.platinum\"]}"
 			},
