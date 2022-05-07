@@ -1,5 +1,6 @@
 { "type": "minecraft:generic", "pools": [
 	{ "rolls": 1, "entries": [
-		{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/platinum",
-			"conditions": [ { "condition": "minecraft:random_chance", "chance": 0.15 } ] },
-		{ "type": "minecraft:item", "name": "minecraft:raw_gold" } ] } ] }
+		{ "type": "minecraft:alternatives", "children": [
+			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/platinum",
+				"conditions": [ { "condition": "minecraft:random_chance", "chance": 0.15 } ] },
+			{ "type": "minecraft:item", "name": "minecraft:raw_gold" } ] } ] } ] }
