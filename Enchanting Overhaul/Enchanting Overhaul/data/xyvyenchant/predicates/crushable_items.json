@@ -1,7 +1,5 @@
 {	"condition": "minecraft:alternative", "terms": [
 	{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
-		"type": "minecraft:item_frame", "nbt": "{Item:{id:\"minecraft:iron_ore\"}}" } },
-	{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
 		"type": "minecraft:item_frame", "nbt": "{Item:{id:\"minecraft:copper_ore\"}}" } },
 	{ "condition": "minecraft:entity_properties", "entity": "this", "predicate": {
 		"type": "minecraft:item_frame", "nbt": "{Item:{id:\"minecraft:gold_ore\"}}" } },

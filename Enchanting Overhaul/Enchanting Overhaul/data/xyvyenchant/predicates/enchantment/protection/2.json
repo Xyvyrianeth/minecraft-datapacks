@@ -6,7 +6,7 @@
 			"offhand": {
 				"count": 1,
 				"items": [ "amethyst_shard" ],
-				"nbt": "{Tags:[\"xyvyenchant.bloodstone\"]}"
+				"nbt": "{Tags:[\"xyvyenchant.pyrite\"]}"
 			},
 			"mainhand": {
 				"tag": "xyvyenchant:armor",

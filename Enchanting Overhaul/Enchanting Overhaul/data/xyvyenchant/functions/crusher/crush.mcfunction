@@ -1,5 +1,3 @@
-execute as @s[nbt={Item:{id:"minecraft:iron_ore",Count:1b}}] run function xyvyenchant:crusher/blocks/iron_ore
-execute as @s[nbt={Item:{id:"minecraft:deepslate_iron_ore",Count:1b}}] run function xyvyenchant:crusher/blocks/iron_ore
 execute as @s[nbt={Item:{id:"minecraft:copper_ore",Count:1b}}] run function xyvyenchant:crusher/blocks/copper_ore
 execute as @s[nbt={Item:{id:"minecraft:deepslate_copper_ore",Count:1b}}] run function xyvyenchant:crusher/blocks/copper_ore
 execute as @s[nbt={Item:{id:"minecraft:gold_ore",Count:1b}}] run function xyvyenchant:crusher/blocks/gold_ore
