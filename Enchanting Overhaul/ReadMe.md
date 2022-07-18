@@ -1,3 +1,5 @@
+[Planet Minecraft page](https://www.planetminecraft.com/data-pack/enchanting-overhaul/)
+
 ![](readme_assets/gemstones.png)
 Assets by [@Tera_Katzen](https://twitter.com/Tera_Katzen)
 
