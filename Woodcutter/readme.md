@@ -1,4 +1,4 @@
-![](readme/pack.png)
+<img src="readme/pack.png" width="128" height="128">
 
 ### Adds many Woodcutting recipes to the Stonecutter
 
