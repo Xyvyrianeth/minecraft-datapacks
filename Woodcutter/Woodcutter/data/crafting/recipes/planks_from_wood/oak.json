@@ -1,8 +1,8 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:acacia_log"
+        "item": "minecraft:oak_wood"
     },
-    "result": "minecraft:acacia_boat",
+    "result": "minecraft:oak_planks",
     "count": 4
 }

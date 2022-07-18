@@ -1,8 +1,8 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:dark_oak_log"
+        "item": "minecraft:warped_hyphae"
     },
-    "result": "minecraft:dark_oak_boat",
+    "result": "minecraft:warped_planks",
     "count": 4
 }

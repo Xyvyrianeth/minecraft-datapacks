@@ -1,8 +1,8 @@
 {
     "type": "minecraft:stonecutting",
     "ingredient": {
-        "item": "minecraft:mangrove_log"
+        "item": "minecraft:spruce_wood"
     },
-    "result": "minecraft:mangrove_boat",
+    "result": "minecraft:spruce_planks",
     "count": 4
 }
