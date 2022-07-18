@@ -6,8 +6,8 @@
 
 Craft stairs, slabs, doors, trapdoors, fences, gates, signs, pressure plates, buttons, and ladders from a single plank.
 
-<img src="readme/planks.png" height=256>
+<img src="readme/planks.png">
 
 Can also craft chests, barrels, composters, and boats from logs.
 
-<img src="readme/logs.png" height=256>
+<img src="readme/logs.png">
