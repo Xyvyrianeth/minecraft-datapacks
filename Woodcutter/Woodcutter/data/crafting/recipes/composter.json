@@ -29,7 +29,17 @@
 		{ "item": "minecraft:dark_oak_wood" },
 		{ "item": "minecraft:mangrove_wood" },
 		{ "item": "minecraft:warped_hyphae" },
-		{ "item": "minecraft:crimson_hyphae" } ],
+		{ "item": "minecraft:crimson_hyphae" },
+
+		{ "item": "minecraft:stripped_oak_wood" },
+		{ "item": "minecraft:stripped_birch_wood" },
+		{ "item": "minecraft:stripped_spruce_wood" },
+		{ "item": "minecraft:stripped_jungle_wood" },
+		{ "item": "minecraft:stripped_acacia_wood" },
+		{ "item": "minecraft:stripped_dark_oak_wood" },
+		{ "item": "minecraft:stripped_mangrove_wood" },
+		{ "item": "minecraft:stripped_warped_hyphae" },
+		{ "item": "minecraft:stripped_crimson_hyphae" } ],
     "result": "minecraft:composter",
     "count": 1
 }
