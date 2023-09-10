@@ -33,10 +33,10 @@ To destroy the station, simply remove the block beneath it. Trying to create it 
 
 All enchantments can only be raised to their normal levels.
 - 1st level - 1 gemstone (1 total)
-- 2nd level - 2 gemstones (3 total)
-- 3rd level - 3 gemstones (6 total)
-- 4th level - 5 gemstones (11 total)
-- 5th level - 8 gemstones (19 total)
+- 2nd level - 1 gemstones (2 total)
+- 3rd level - 2 gemstones (4 total)
+- 4th level - 4 gemstones (8 total)
+- 5th level - 8 gemstones (16 total)
 
 ## How to Get Gemstones
 
