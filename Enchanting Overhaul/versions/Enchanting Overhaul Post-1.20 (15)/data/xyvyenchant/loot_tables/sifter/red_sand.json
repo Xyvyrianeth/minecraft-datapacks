@@ -1,0 +1,5 @@
+{ "type": "minecraft:generic", "pools": [
+	{ "rolls": 1, "entries": [
+		{ "type": "minecraft:group", "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.015 } ], "children": [
+			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/larimar", "weight": 2 },
+			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/sunstone", "weight": 1 } ] } ] } ] }

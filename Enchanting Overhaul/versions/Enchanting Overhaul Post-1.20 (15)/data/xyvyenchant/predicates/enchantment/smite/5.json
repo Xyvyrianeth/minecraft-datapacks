@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 8,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.jade\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:melee_weapon",
+				"enchantments": [ { "enchantment": "smite", "levels": 4 } ]
+			}
+		}
+	}
+}

@@ -46,25 +46,28 @@ All enchantments can only be raised to their normal levels.
  - Can sift sand, red sand, soul sand, and gravel, each with their own drop rates.
  - All sand and gravel that gets sifted will be gone forever, even if it returns nothing.
  - Drops:
-	- Sand:
-		- Pyrite (0.5%)
-		- Pearl (0.25%)
-	- Red Sand:
-		- Pyrite (0.25%)
-		- Pearl (0.5%)
-	- Soul Sand:
-		- Malachite (0.25%)
 	- Gravel:
-		- Pyrite (0.75%)
-		- Normal Flint (25%)
+		- Pyrite (1%)
+		- Normal Flint (50%)
+	- Sand:
+		- Pearl (0.5%)
+		- Larimar (0.25%)
+	- Red Sand:
+		- Larimar (1%)
+		- Sunstone (0.5%)
+	- Soul Sand:
+		- Malachite (0.6%)
+		- Bloodstone (0.4%)
 
 ### Crushing
 ![](readme_assets/crusher.png)
  - Place an obsidian block. Place an iron block 2 blocks above it (1 empty space between). Place a piston facing down above that. Place an item frame on the obsidian and put an obsidian in the item frame, then power that sticky piston. The obsidian will be crushed and it might turn into an Onyx.
  - Can also crush most ores, crying obsidian, and gilded blackstone.
  - Drops:
-	- Iron and Copper ore:
+	- Iron ore:
 		- Jade (10%)
+	- Copper ore:
+		- Jade (4%)
 	- Gold ore:
 		- Platinum (15%)
 	- Lapis ore:
@@ -79,8 +82,8 @@ All enchantments can only be raised to their normal levels.
 		- Moonstone (25%)
 	- Gilded Blackstone:
 		- Bloodstone (20%)
- - Ores will drop only 1 of their usual loot if they do not drop a gemstone.
- - You will need to get Moonstone from crushed Crying Obsidian to get any of the ores.
+ - Ores will grant only 1 of their usual loot if they do not grant a gemstone.
+ - You will need to obtain Moonstone from crushing Crying Obsidian to get any of the other gemstones.
 
 ### Chest Loot
  - Gemstones can also be found in chests all over the world, if you prefer to explore.

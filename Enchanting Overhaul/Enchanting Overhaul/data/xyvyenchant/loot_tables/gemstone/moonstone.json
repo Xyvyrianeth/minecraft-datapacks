@@ -1,6 +1,0 @@
-{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
-	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
-		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.moonstone\"],CustomModelData:9141454}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Moonstone", "color": "#92BEE1", "italic": false } },
-		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "Cold and gentle", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

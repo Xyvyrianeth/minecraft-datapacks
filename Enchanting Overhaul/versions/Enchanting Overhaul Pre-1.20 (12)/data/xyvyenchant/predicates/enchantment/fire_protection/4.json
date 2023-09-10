@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 4,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.sunstone\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:armor",
+				"enchantments": [ { "enchantment": "fire_protection", "levels": 3 } ]
+			}
+		}
+	}
+}

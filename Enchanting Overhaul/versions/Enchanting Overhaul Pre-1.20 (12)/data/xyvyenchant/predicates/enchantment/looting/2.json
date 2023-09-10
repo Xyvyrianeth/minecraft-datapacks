@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 1,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.opal\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:melee_weapon",
+				"enchantments": [ { "enchantment": "looting", "levels": 1 } ]
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+[	{	"condition": "minecraft:any_of", "terms": [
+	{	"condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "player": { "level": { "min": 3 } } } },
+	{	"condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "player": { "gamemode": "creative" } } } ] } ]

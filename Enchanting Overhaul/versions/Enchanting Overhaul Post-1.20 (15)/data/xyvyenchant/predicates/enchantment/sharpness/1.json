@@ -1,0 +1,33 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"offhand": {
+					"count": 1,
+					"items": [ "amethyst_shard" ],
+					"nbt": "{Tags:[\"xyvyenchant.bloodstone\"]}"
+				},
+				"mainhand": { "tag": "xyvyenchant:melee_weapon" }
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:any_of",
+			"terms": [
+				{ "condition": "minecraft:entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "sharpness" } ] } } } },
+				{ "condition": "minecraft:entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "smite" } ] } } } },
+				{ "condition": "minecraft:entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "bane_of_arthropods" } ] } } } }
+			]
+		}
+	}
+]

@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 1,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.larimar\"]}"
+			},
+			"mainhand": {
+				"tag": "xyvyenchant:helmet",
+				"enchantments": [ { "enchantment": "depth_strider", "levels": 1 } ]
+			}
+		}
+	}
+}

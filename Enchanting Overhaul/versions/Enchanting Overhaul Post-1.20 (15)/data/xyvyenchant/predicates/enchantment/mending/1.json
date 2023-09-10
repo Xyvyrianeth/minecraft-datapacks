@@ -1,0 +1,30 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"offhand": {
+					"count": 1,
+					"items": [ "amethyst_shard" ],
+					"nbt": "{Tags:[\"xyvyenchant.malachite\"]}"
+				},
+				"mainhand": { "tag": "xyvyenchant:all_items" }
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:any_of",
+			"terms": [
+				{ "condition": "minecraft:entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "mending" } ] } } } },
+				{ "condition": "minecraft:entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "infinity" } ] } } } }
+			]
+		}
+	}
+]

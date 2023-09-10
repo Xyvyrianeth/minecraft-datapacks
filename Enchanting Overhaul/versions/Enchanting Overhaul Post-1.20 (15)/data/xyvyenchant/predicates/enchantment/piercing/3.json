@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 2,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.bloodstone\"]}"
+			},
+			"mainhand": {
+				"items": [ "crossbow" ],
+				"enchantments": [ { "enchantment": "piercing", "levels": 2 } ]
+			}
+		}
+	}
+}

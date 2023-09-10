@@ -1,0 +1,6 @@
+{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
+	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
+		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.jade\"],CustomModelData:9141451}"},
+		{ "function": "minecraft:set_name", "name": { "text": "Jade", "color": "#035C57", "italic": false } },
+		{ "function": "minecraft:set_lore", "lore": [
+			{ "text": "Divinely incandescent", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

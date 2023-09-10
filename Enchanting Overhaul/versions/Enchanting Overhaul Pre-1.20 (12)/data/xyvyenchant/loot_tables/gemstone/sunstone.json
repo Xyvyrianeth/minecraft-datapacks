@@ -1,0 +1,6 @@
+{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
+	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
+		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.sunstone\"],CustomModelData:9141460}"},
+		{ "function": "minecraft:set_name", "name": { "text": "Sunstone", "color": "#FFBB44", "italic": false } },
+		{ "function": "minecraft:set_lore", "lore": [
+			{ "text": "Hot to the touch", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

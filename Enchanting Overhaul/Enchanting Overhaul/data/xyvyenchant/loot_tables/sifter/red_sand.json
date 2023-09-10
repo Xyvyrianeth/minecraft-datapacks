@@ -1,5 +1,0 @@
-{ "type": "minecraft:generic", "pools": [
-	{ "rolls": 1, "entries": [
-		{ "type": "minecraft:group", "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.01 } ], "children": [
-			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/larimar" },
-			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/pyrite" } ] } ] } ] }

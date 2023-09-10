@@ -1,6 +1,0 @@
-{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
-	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
-		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.malachite\"],CustomModelData:9141453}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Malachite", "color": "#257D67", "italic": false } },
-		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "Convalescing", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }

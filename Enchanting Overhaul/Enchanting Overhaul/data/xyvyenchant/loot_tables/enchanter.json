@@ -1,4 +1,0 @@
-{ "type": "minecraft:generic", "pools": [
-	{ "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:smithing_table" } ] },
-	{ "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:glow_item_frame" } ] },
-	{ "rolls": 1, "entries": [ { "type": "minecraft:item", "name": "minecraft:amethyst_shard" } ] } ] }

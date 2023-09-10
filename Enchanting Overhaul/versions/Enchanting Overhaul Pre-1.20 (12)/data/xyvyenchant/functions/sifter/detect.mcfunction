@@ -1,0 +1,2 @@
+execute as @e[type=item_frame,nbt={Facing:0b,Item:{id:"minecraft:iron_bars"}}] at @s if block ~ ~1 ~ hopper[facing=down] run function xyvyenchant:sifter/sift
+execute as @e[type=item_frame,nbt={Facing:0b}] at @s if block ~ ~1 ~ hopper[facing=down] unless data entity @s Item{id:"minecraft:iron_bars"} run data modify entity @s Invisible set value 0b

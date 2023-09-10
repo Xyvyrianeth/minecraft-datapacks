@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 1,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.pearl\"]}"
+			},
+			"mainhand": {
+				"items": [ "fishing_rod" ],
+				"enchantments": [ { "enchantment": "luck_of_the_sea", "levels": 1 } ]
+			}
+		}
+	}
+}

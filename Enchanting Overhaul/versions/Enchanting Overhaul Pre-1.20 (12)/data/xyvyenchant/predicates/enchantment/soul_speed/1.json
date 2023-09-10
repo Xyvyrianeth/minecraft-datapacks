@@ -1,0 +1,27 @@
+[
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"offhand": {
+					"count": 1,
+					"items": [ "amethyst_shard" ],
+					"nbt": "{Tags:[\"xyvyenchant.jade\"]}"
+				},
+				"mainhand": { "tag": "xyvyenchant:boots" }
+			}
+		}
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:alternatives",
+			"terms": [
+				{ "condition": "minecraft:entity_properties", "entity": "this",
+					"predicate": { "equipment": { "mainhand": { "enchantments": [
+						{ "enchantment": "soul_speed" } ] } } } }
+			]
+		}
+	}
+]

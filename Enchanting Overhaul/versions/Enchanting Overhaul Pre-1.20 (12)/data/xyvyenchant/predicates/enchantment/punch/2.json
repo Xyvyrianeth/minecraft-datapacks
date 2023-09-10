@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"offhand": {
+				"count": 1,
+				"items": [ "amethyst_shard" ],
+				"nbt": "{Tags:[\"xyvyenchant.platinum\"]}"
+			},
+			"mainhand": {
+				"items": [ "bow" ],
+				"enchantments": [ { "enchantment": "punch", "levels": 1 } ]
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{ "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
+	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
+		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.pearl\"],CustomModelData:9141457}"},
+		{ "function": "minecraft:set_name", "name": { "text": "Pearl", "color": "#EAE0C8", "italic": false } },
+		{ "function": "minecraft:set_lore", "lore": [
+			{ "text": "A priceless curiosity", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }
