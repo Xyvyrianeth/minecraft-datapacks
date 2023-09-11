@@ -1,0 +1,12 @@
+[ {	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:smite" } ] } } } } },
+{	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:sharpness" } ] } } } } },
+{	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:bane_of_arthropods" } ] } } } } } ]

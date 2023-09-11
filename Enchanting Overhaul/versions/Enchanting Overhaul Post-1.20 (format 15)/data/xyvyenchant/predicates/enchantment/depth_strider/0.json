@@ -1,0 +1,8 @@
+[ {	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:depth_strider" } ] } } } } },
+{	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:frost_walker" } ] } } } } } ]

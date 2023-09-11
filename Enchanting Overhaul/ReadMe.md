@@ -20,13 +20,13 @@ To destroy the station, simply remove the block beneath it. Trying to create it 
 | Gemstone | Swords | Axes | Bows | Crossbows | Tridents | Helmet | Chestplate | Leggings | Boots | Tools | Fishing Rods |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Sunstone | Fire Aspect | Fire Aspect | Flame | --- | --- | Fire Protection | Fire Protection | Fire Protection | Fire Protection | --- | --- |
-| Moonstone | --- | Silk Touch | --- | --- | Loyalty | Respiration | --- | --- | Frost Walker | Silk Touch | --- |
+| Moonstone | --- | Silk Touch | --- | --- | Loyalty | Respiration | --- | --- | Feather Falling | Silk Touch | --- |
 | Bloodstone | Sharpness | Sharpness | Power | Piercing | Impaling | Protection | Protection | Protection | Protection | --- | --- |
 | Jade | Smite | Smite | --- | --- | Channeling | --- | --- | --- | Soul Speed | --- | --- |
 | Platinum | Knockback | Knockback | Punch | --- | --- | Blast Protection | Blast Protection | Blast Protection | Blast Protection | --- | --- |
-| Pearl | --- | Fortune | --- | --- | --- | --- | --- | --- | Feather Falling | Fortune | Luck of the Sea |
+| Pearl | --- | Fortune | --- | --- | --- | --- | --- | --- | Frost Walker | Fortune | Luck of the Sea |
 | Opal | Looting | Looting | Infinity | Multishot | --- | Projectile Protection | Projectile Protection | Projectile Protection | Projectile Protection | --- | --- |
-| Pyrite | Bane of Arthropods | Bane of Arthropods | --- | --- | --- | Thorns | Thorns | Thorns | Thorns | --- | Lure |
+| Amber | Bane of Arthropods | Bane of Arthropods | --- | --- | --- | Thorns | Thorns | Thorns | Thorns | --- | Lure |
 | Larimar | Sweeping Edge | Efficiency | --- | Quick Charge | Riptide | Aqua Affinity | --- | --- | Depth Strider | Efficiency | --- |
 | Onyx | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking | Unbreaking |
 | Malachite | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending | Mending |
@@ -47,7 +47,7 @@ All enchantments can only be raised to their normal levels.
  - All sand and gravel that gets sifted will be gone forever, even if it returns nothing.
  - Drops:
 	- Gravel:
-		- Pyrite (1%)
+		- Amber (1%)
 		- Normal Flint (50%)
 	- Sand:
 		- Pearl (0.5%)
@@ -88,22 +88,28 @@ All enchantments can only be raised to their normal levels.
 ### Chest Loot
  - Gemstones can also be found in chests all over the world, if you prefer to explore.
  - Loot:
-	- Village Temples:
+	- Villages:
 		- Jade
+		- Onyx
 	- Pillager Outposts:
-		- Malachite
+		- Jade
+		- Amber
 	- Shipwrecks:
 		- Pearl
+		- Moonstone
 	- Buried Treasure:
 		- Pearl
+		- Larimar
 	- Desert Pyramids:
-		- Pyrite
+		- Amber
 		- Larimar
 		- Moonstone
 	- Jungle Temples:
 		- Jade
+		- Amber
 	- Simple Dungeons:
 		- Sunstone
+		- Moonstone
 		- Jade
 	- Underwater Ruins:
 		- Pearl
@@ -111,22 +117,33 @@ All enchantments can only be raised to their normal levels.
 	- Mineshafts:
 		- Larimar
 		- Platinum
-		- Jade
+		- Opal
 		- Sunstone
 	- Strongholds:
 		- Platinum
 		- Jade
 		- Opal
 	- Woodland Mansions:
+		- Sunstone
+		- Moonstone
 		- Jade
-		- Malachite
 		- Opal
 	- Ruined Portals:
 		- Moonstone
 		- Bloodstone
+		- Malachite
+	- Ancient Cities:
+		- Sunstone
+		- Moonstone
+		- Bloodstone
+		- Opal
+		- Jade
+		- Platinum
+		- Malachite
+		- Onyx
 	- Nether Fortresses:
 		- Onyx
-		- Platinum
+		- Bloodstone
 		- Malachite
 	- Bastions:
 		- Onyx
@@ -134,7 +151,7 @@ All enchantments can only be raised to their normal levels.
 		- Bloodstone
 	- End Cities:
 		- Sunstone
-		- Malachite
 		- Moonstone
+		- Malachite
 		- Onyx
 		- Opal

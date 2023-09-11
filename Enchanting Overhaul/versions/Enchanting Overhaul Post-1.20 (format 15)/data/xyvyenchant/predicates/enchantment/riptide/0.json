@@ -1,0 +1,12 @@
+[ {	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:riptide" } ] } } } } },
+{	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:channeling" } ] } } } } },
+{	"condition": "minecraft:inverted",
+	"term": { "condition": "minecraft:entity_properties", "entity": "this",
+		"predicate": { "equipment": { "mainhand": { "enchantments": [
+			{ "enchantment": "minecraft:loyalty" } ] } } } } }  ]

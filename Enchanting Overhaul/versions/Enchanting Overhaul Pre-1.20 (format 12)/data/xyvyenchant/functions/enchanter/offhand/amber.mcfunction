@@ -1,0 +1,37 @@
+## BANE OF ARTHROPODS
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons unless predicate xyvyenchant:enchantment/smite/0 run title @s actionbar "§6Bane of Arthropods §f| §cIncompatible §fwith §eSmite"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons unless predicate xyvyenchant:enchantment/sharpness/0 run title @s actionbar "§6Bane of Arthropods §f| §cIncompatible §fwith §eSharpness"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/0 run title @s actionbar "§6Bane of Arthropods §f| Requires §e1 §aLevel §f& §e1 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/1 run title @s actionbar "§6Bane of Arthropods II §f| Requires §e3 §aLevels §f& §e1 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/2 run title @s actionbar "§6Bane of Arthropods III §f| Requires §e6 §aLevels §f& §e2 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/3 run title @s actionbar "§6Bane of Arthropods III §f| Requires §e11 §aLevels §f& §e4 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/4 run title @s actionbar "§6Bane of Arthropods IV §f| Requires §e20 §aLevels §f& §e8 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/5 run title @s actionbar "§6Bane of Arthropods V §f| §bEnchantment Maxed"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/01 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/bane_of_arthropods
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/1 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/03 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/bane_of_arthropods
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/2 if predicate xyvyenchant:offhand/count/2 if predicate xyvyenchant:experience/06 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/bane_of_arthropods
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/3 if predicate xyvyenchant:offhand/count/4 if predicate xyvyenchant:experience/11 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/bane_of_arthropods
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/4 if predicate xyvyenchant:offhand/count/8 if predicate xyvyenchant:experience/20 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/bane_of_arthropods
+
+## PROTECTION
+execute as @a at @s if predicate xyvyenchant:mainhand/armor unless predicate xyvyenchant:enchantment/fire_protection/0 run title @s actionbar "§6Protection §f| §cIncompatible §fwith §eFire Protection"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor unless predicate xyvyenchant:enchantment/projectile_protection/0 run title @s actionbar "§6Protection §f| §cIncompatible §fwith §eProjectile Protection"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor unless predicate xyvyenchant:enchantment/blast_protection/0 run title @s actionbar "§6Protection §f| §cIncompatible §fwith §eBlast Protection"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/0 run title @s actionbar "§6Protection §f| Requires §e1 §aLevel §f& §e1 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/1 run title @s actionbar "§6Protection II §f| Requires §e3 §aLevels §f& §e1 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/2 run title @s actionbar "§6Protection III §f| Requires §e6 §aLevels §f& §e2 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/3 run title @s actionbar "§6Protection III §f| Requires §e11 §aLevels §f& §e4 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/4 run title @s actionbar "§6Protection IV §f| §bEnchantment Maxed"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/01 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/protection
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/1 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/03 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/protection
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/2 if predicate xyvyenchant:offhand/count/2 if predicate xyvyenchant:experience/06 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/protection
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/3 if predicate xyvyenchant:offhand/count/4 if predicate xyvyenchant:experience/11 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/protection
+
+## LURE
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/0 run title @s actionbar "§6Lure §f| Requires §e2 §aLevels §f& §e1 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/1 run title @s actionbar "§6Lure II §f| Requires §e5 §aLevels §f& §e1 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/2 run title @s actionbar "§6Lure III §f| Requires §e9 §aLevels §f& §e2 §bAmber"
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/3 run title @s actionbar "§6Lure III §f| §bEnchantment Maxed"
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/02 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/lure
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/1 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/05 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/lure
+execute as @a at @s if predicate xyvyenchant:mainhand/fishing_rod if predicate xyvyenchant:enchantment/lure/2 if predicate xyvyenchant:offhand/count/2 if predicate xyvyenchant:experience/09 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/lure

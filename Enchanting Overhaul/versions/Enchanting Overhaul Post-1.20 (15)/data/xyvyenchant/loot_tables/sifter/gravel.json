@@ -1,5 +1,0 @@
-{ "type": "minecraft:generic", "comment": "I want this to also double as an efficient way to get flint",  "pools": [
-	{ "rolls": 1, "entries": [
-		{ "type": "minecraft:group", "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.51 } ], "children": [
-			{ "type": "minecraft:loot_table", "name": "xyvyenchant:gemstone/pyrite", "weight": 1 } ] },
-			{ "type": "minecraft:item", "name": "minecraft:flint", "weight": 50 } ] } ] }

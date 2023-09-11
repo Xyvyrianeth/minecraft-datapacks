@@ -1,0 +1,4 @@
+{	"condition": "minecraft:entity_properties", "entity": "this",
+	"predicate": { "type_specific": { "type": "player", "looking_at": {
+		"nbt": "{Tags:[\"xyvyenchant.station\"]}",
+		"distance": { "absolute": { "max": 3 } } } } } }

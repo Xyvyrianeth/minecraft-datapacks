@@ -1,0 +1,8 @@
+## UNBREAKING
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/0 run title @s actionbar "§6Unbreaking §f| Requires §e1 §aLevel §f& §e1 §bOnyx"
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/1 run title @s actionbar "§6Unbreaking II §f| Requires §e3 §aLevels §f& §e1 §bOnyx"
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/2 run title @s actionbar "§6Unbreaking III §f| Requires §e6 §aLevels §f& §e2 §bOnyx"
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/3 run title @s actionbar "§6Unbreaking III §f| §bEnchantment Maxed"
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/01 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/unbreaking
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/1 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/03 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/unbreaking
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/unbreaking/2 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/06 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/unbreaking
