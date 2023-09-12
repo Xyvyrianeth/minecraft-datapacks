@@ -1,6 +1,6 @@
 { "type": "minecraft:generic", "pools": [ { "rolls": 1, "entries": [
 	{ "type": "minecraft:item", "name": "minecraft:amethyst_shard", "functions": [
 		{ "function": "minecraft:set_nbt", "tag": "{Tags:[\"xyvyenchant.amber\"],CustomModelData:9141459}"},
-		{ "function": "minecraft:set_name", "name": { "text": "Amber", "color": "#655611", "italic": false } },
+		{ "function": "minecraft:set_name", "name": { "text": "Amber", "color": "#FFDD00", "italic": false } },
 		{ "function": "minecraft:set_lore", "lore": [
-			{ "text": "Easily mistaken for something precious", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }
+			{ "text": "A vestige of something ancient", "color": "#FFAA00", "italic": false } ] } ] } ] } ] }
