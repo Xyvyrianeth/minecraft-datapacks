@@ -1,5 +1,5 @@
 ## MENDING
-execute as @a at @s if predicate xyvyenchant:mainhand/all_items unless predicate xyvyenchant:enchantment/infinity/0 run title @s actionbar "§6Mending §f| §cIncompatible §fwith §eInfinity"
+execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/infinity/any run title @s actionbar "§6Mending §f| §cIncompatible §fwith §eInfinity"
 execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/mending/0 run title @s actionbar "§6Mending §f| Requires §e2 §aLevels §f& §e1 §bMalachite"
 execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/mending/1 run title @s actionbar "§6Mending §f| §bEnchantment Maxed"
 execute as @a at @s if predicate xyvyenchant:mainhand/all_items if predicate xyvyenchant:enchantment/mending/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/01 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/mending

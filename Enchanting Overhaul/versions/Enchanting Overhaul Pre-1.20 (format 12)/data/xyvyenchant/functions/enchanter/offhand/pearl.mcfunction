@@ -1,5 +1,5 @@
 ## FORTUNE
-execute as @a at @s if predicate xyvyenchant:mainhand/tools unless predicate xyvyenchant:enchantment/silk_touch/0 run title @s actionbar "§6Fortune §f| §cIncompatible §fwith §eSilk Touch"
+execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/silk_touch/any run title @s actionbar "§6Fortune §f| §cIncompatible §fwith §eSilk Touch"
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/fortune/0 run title @s actionbar "§6Fortune §f| Requires §e2 §aLevels §f& §e1 §bPearl"
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/fortune/1 run title @s actionbar "§6Fortune II §f| Requires §e5 §aLevels §f& §e1 §bPearl"
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/fortune/2 run title @s actionbar "§6Fortune III §f| Requires §e9 §aLevels §f& §e2 §bPearls"
@@ -9,7 +9,7 @@ execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenc
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/fortune/2 if predicate xyvyenchant:offhand/count/2 if predicate xyvyenchant:experience/09 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/fortune
 
 ## FROST WALKER
-execute as @a at @s if predicate xyvyenchant:mainhand/boots unless predicate xyvyenchant:enchantment/depth_strider/0 run title @s actionbar "§6Frost Walker §f| §cIncompatible §fwith §eDepth Strider"
+execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/depth_strider/any run title @s actionbar "§6Frost Walker §f| §cIncompatible §fwith §eDepth Strider"
 execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/frost_walker/0 run title @s actionbar "§6Frost Walker §f| Requires §e2 §aLevels §f& §e1 §bPearl"
 execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/frost_walker/1 run title @s actionbar "§6Frost Walker II §f| Requires §e5 §aLevels §f& §e1 §bPearl"
 execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/frost_walker/2 run title @s actionbar "§6Frost Walker II §f| §bEnchantment Maxed"

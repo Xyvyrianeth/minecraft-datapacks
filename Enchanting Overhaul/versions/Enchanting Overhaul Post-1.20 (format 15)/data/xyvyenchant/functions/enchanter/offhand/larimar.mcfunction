@@ -30,8 +30,8 @@ execute as @a at @s if predicate xyvyenchant:mainhand/crossbow if predicate xyvy
 execute as @a at @s if predicate xyvyenchant:mainhand/crossbow if predicate xyvyenchant:enchantment/quick_charge/2 if predicate xyvyenchant:offhand/count/2 if predicate xyvyenchant:experience/06 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/quick_charge
 
 ## RIPTIDE
-execute as @a at @s if predicate xyvyenchant:mainhand/trident unless predicate xyvyenchant:enchantment/channeling/0 run title @s actionbar "§6Riptide §f| §cIncompatible §fwith §eChanneling"
-execute as @a at @s if predicate xyvyenchant:mainhand/trident unless predicate xyvyenchant:enchantment/loyalty/0 run title @s actionbar "§6Riptide §f| §cIncompatible §fwith §eLoyalty"
+execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/channeling/any run title @s actionbar "§6Riptide §f| §cIncompatible §fwith §eChanneling"
+execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/loyalty/any run title @s actionbar "§6Riptide §f| §cIncompatible §fwith §eLoyalty"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/riptide/0 run title @s actionbar "§6Riptide §f| Requires §e2 §aLevels §f& §e1 §bLarimar"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/riptide/1 run title @s actionbar "§6Riptide II §f| Requires §e5 §aLevels §f& §e1 §bLarimar"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/riptide/2 run title @s actionbar "§6Riptide III §f| Requires §e9 §aLevels §f& §e2 §bLarimar"
@@ -55,7 +55,7 @@ execute as @a at @s if predicate xyvyenchant:mainhand/leggings if predicate xyvy
 execute as @a at @s if predicate xyvyenchant:mainhand/leggings if predicate xyvyenchant:enchantment/swift_sneak/2 if predicate xyvyenchant:offhand/count/2 if predicate xyvyenchant:experience/15 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/swift_sneak
 
 ## DEPTH STRIDER
-execute as @a at @s if predicate xyvyenchant:mainhand/boots unless predicate xyvyenchant:enchantment/frost_walker/0 run title @s actionbar "§6Depth Strider §f| §cIncompatible §fwith §eFrost Walker"
+execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/frost_walker/any run title @s actionbar "§6Depth Strider §f| §cIncompatible §fwith §eFrost Walker"
 execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/depth_strider/0 run title @s actionbar "§6Depth Strider §f| Requires §e2 §aLevels §f& §e1 §bLarimar"
 execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/depth_strider/1 run title @s actionbar "§6Depth Strider II §f| Requires §e5 §aLevels §f& §e1 §bLarimar"
 execute as @a at @s if predicate xyvyenchant:mainhand/boots if predicate xyvyenchant:enchantment/depth_strider/2 run title @s actionbar "§6Depth Strider III §f| Requires §e9 §aLevels §f& §e2 §bLarimar"

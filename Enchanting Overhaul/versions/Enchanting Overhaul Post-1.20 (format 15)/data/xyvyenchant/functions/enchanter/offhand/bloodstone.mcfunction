@@ -1,6 +1,6 @@
 ## SHARPNESS
-execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons unless predicate xyvyenchant:enchantment/smite/0 run title @s actionbar "§6Sharpness §f| §cIncompatible §fwith §eSmite"
-execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons unless predicate xyvyenchant:enchantment/bane_of_arthropods/0 run title @s actionbar "§6Sharpness §f| §cIncompatible §fwith §eBane of Arthropods"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/smite/any run title @s actionbar "§6Sharpness §f| §cIncompatible §fwith §eSmite"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/any run title @s actionbar "§6Sharpness §f| §cIncompatible §fwith §eBane of Arthropods"
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/sharpness/0 run title @s actionbar "§6Sharpness §f| Requires §e1 §aLevel §f& §e1 §bBloodstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/sharpness/1 run title @s actionbar "§6Sharpness II §f| Requires §e3 §aLevels §f& §e1 §bBloodstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/sharpness/2 run title @s actionbar "§6Sharpness III §f| Requires §e6 §aLevels §f& §e2 §bBloodstones"
@@ -27,7 +27,7 @@ execute as @a at @s if predicate xyvyenchant:mainhand/bow if predicate xyvyencha
 execute as @a at @s if predicate xyvyenchant:mainhand/bow if predicate xyvyenchant:enchantment/power/4 if predicate xyvyenchant:offhand/count/8 if predicate xyvyenchant:experience/20 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/power
 
 ## PIERCING
-execute as @a at @s if predicate xyvyenchant:mainhand/crossbow unless predicate xyvyenchant:enchantment/multishot/0 run title @s actionbar "§6Piercing §f| §cIncompatible §fwith §eMultishot"
+execute as @a at @s if predicate xyvyenchant:mainhand/crossbow if predicate xyvyenchant:enchantment/multishot/any run title @s actionbar "§6Piercing §f| §cIncompatible §fwith §eMultishot"
 execute as @a at @s if predicate xyvyenchant:mainhand/crossbow if predicate xyvyenchant:enchantment/piercing/0 run title @s actionbar "§6Piercing §f| Requires §e1 §aLevel §f& §e1 §bBloodstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/crossbow if predicate xyvyenchant:enchantment/piercing/1 run title @s actionbar "§6Piercing II §f| Requires §e3 §aLevels §f& §e1 §bBloodstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/crossbow if predicate xyvyenchant:enchantment/piercing/2 run title @s actionbar "§6Piercing III §f| Requires §e6 §aLevels §f& §e2 §bBloodstones"

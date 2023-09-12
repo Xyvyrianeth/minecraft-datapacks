@@ -11,9 +11,9 @@ execute as @a at @s if predicate xyvyenchant:mainhand/bow if predicate xyvyencha
 execute as @a at @s if predicate xyvyenchant:mainhand/bow if predicate xyvyenchant:enchantment/flame/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/02 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/flame
 
 ## FIRE PROTECTION
-execute as @a at @s if predicate xyvyenchant:mainhand/armor unless predicate xyvyenchant:enchantment/protection/0 run title @s actionbar "§6Fire Protection §f| §cIncompatible §fwith §eProtection"
-execute as @a at @s if predicate xyvyenchant:mainhand/armor unless predicate xyvyenchant:enchantment/projectile_protection/0 run title @s actionbar "§6Fire Protection §f| §cIncompatible §fwith §eProjectile Protection"
-execute as @a at @s if predicate xyvyenchant:mainhand/armor unless predicate xyvyenchant:enchantment/blast_protection/0 run title @s actionbar "§6Fire Protection §f| §cIncompatible §fwith §eBlast Protection"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/protection/any run title @s actionbar "§6Fire Protection §f| §cIncompatible §fwith §eProtection"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/projectile_protection/any run title @s actionbar "§6Fire Protection §f| §cIncompatible §fwith §eProjectile Protection"
+execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/blast_protection/any run title @s actionbar "§6Fire Protection §f| §cIncompatible §fwith §eBlast Protection"
 execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/fire_protection/0 run title @s actionbar "§6Fire Protection §f| Requires §e1 §aLevel §f& §e1 §bSunstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/fire_protection/1 run title @s actionbar "§6Fire Protection II §f| Requires §e3 §aLevels §f& §e1 §bSunstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/armor if predicate xyvyenchant:enchantment/fire_protection/2 run title @s actionbar "§6Fire Protection III §f| Requires §e6 §aLevels §f& §e2 §bSunstones"

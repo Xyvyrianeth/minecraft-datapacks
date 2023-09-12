@@ -1,6 +1,6 @@
 ## SMITE
-execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons unless predicate xyvyenchant:enchantment/sharpness/0 run title @s actionbar "§6Smite §f| §cIncompatible §fwith §eSharpness"
-execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons unless predicate xyvyenchant:enchantment/bane_of_arthropods/0 run title @s actionbar "§6Smite §f| §cIncompatible §fwith §eBane of Arthropods"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/sharpness/any run title @s actionbar "§6Smite §f| §cIncompatible §fwith §eSharpness"
+execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/bane_of_arthropods/any run title @s actionbar "§6Smite §f| §cIncompatible §fwith §eBane of Arthropods"
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/smite/0 run title @s actionbar "§6Smite §f| Requires §e1 §aLevel §f& §e1 §bJade"
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/smite/1 run title @s actionbar "§6Smite II §f| Requires §e3 §aLevels §f& §e1 §bJade"
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/smite/2 run title @s actionbar "§6Smite III §f| Requires §e6 §aLevels §f& §e2 §bJade"
@@ -14,7 +14,7 @@ execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate
 execute as @a at @s if predicate xyvyenchant:mainhand/melee_weapons if predicate xyvyenchant:enchantment/smite/4 if predicate xyvyenchant:offhand/count/8 if predicate xyvyenchant:experience/20 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/smite
 
 ## CHANNELING
-execute as @a at @s if predicate xyvyenchant:mainhand/trident unless predicate xyvyenchant:enchantment/riptide/0 run title @s actionbar "§6Channeling §f| §cIncompatible §fwith §eRiptide"
+execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/riptide/any run title @s actionbar "§6Channeling §f| §cIncompatible §fwith §eRiptide"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/channeling/0 run title @s actionbar "§6Channeling §f| Requires §e4 §aLevel §f& §e1 §bJade"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/channeling/1 run title @s actionbar "§6Channeling §f| §bEnchantment Maxed"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/channeling/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/04 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/channeling

@@ -1,11 +1,11 @@
 ## SILK TOUCH
-execute as @a at @s if predicate xyvyenchant:mainhand/tools unless predicate xyvyenchant:enchantment/fortune/0 run title @s actionbar "§6Silk Touch §f| §cIncompatible §fwith §eFortune"
+execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/fortune/any run title @s actionbar "§6Silk Touch §f| §cIncompatible §fwith §eFortune"
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/silk_touch/0 run title @s actionbar "§6Silk Touch §f| Requires §e4 §aLevel §f& §e1 §bMoonstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/silk_touch/1 run title @s actionbar "§6Silk Touch §f| §bEnchantment Maxed"
 execute as @a at @s if predicate xyvyenchant:mainhand/tools if predicate xyvyenchant:enchantment/silk_touch/0 if predicate xyvyenchant:offhand/count/1 if predicate xyvyenchant:experience/04 if predicate xyvyenchant:is_sneaking run function xyvyenchant:enchant/silk_touch
 
 ## LOYALTY
-execute as @a at @s if predicate xyvyenchant:mainhand/trident unless predicate xyvyenchant:enchantment/riptide/0 run title @s actionbar "§6Loyalty §f| §cIncompatible §fwith §eRiptide"
+execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/riptide/any run title @s actionbar "§6Loyalty §f| §cIncompatible §fwith §eRiptide"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/loyalty/0 run title @s actionbar "§6Loyalty §f| Requires §e1 §aLevel §f& §e1 §bMoonstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/loyalty/1 run title @s actionbar "§6Loyalty II §f| Requires §e3 §aLevels §f& §e1 §bMoonstone"
 execute as @a at @s if predicate xyvyenchant:mainhand/trident if predicate xyvyenchant:enchantment/loyalty/2 run title @s actionbar "§6Loyalty III §f| Requires §e6 §aLevels §f& §e2 §bMoonstones"
