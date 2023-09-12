@@ -60,7 +60,7 @@ All enchantments can only be raised to their normal levels.
 		- Bloodstone (0.4%)
 
 ### Crushing
-![](readme_assets/crusher.png)
+![](readme_assets/crusher.png) ![](readme_assets/crushing.png)
  - Place an obsidian block. Place an iron block 2 blocks above it (1 empty space between). Place a piston facing down above that. Place an item frame on the obsidian and put an obsidian in the item frame, then power that sticky piston. The obsidian will be crushed and it might turn into an Onyx.
  - Can also crush most ores, crying obsidian, and gilded blackstone.
  - Drops:
