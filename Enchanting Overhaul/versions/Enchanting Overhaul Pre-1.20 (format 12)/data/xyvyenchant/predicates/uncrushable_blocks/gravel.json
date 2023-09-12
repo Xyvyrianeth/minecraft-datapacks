@@ -1,3 +1,0 @@
-{ "condition": "minecraft:entity_properties", "entity": "this",
-    "predicate": {
-    "type": "minecraft:item_frame", "nbt": "{Item:{id:\"minecraft:gravel\",tag:{Tags:[\"xyvyenchant.uncrushable\"]}}}" } }
