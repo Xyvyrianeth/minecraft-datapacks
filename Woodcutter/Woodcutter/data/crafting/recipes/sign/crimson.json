@@ -1,8 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": {
-        "item": "minecraft:crimson_planks"
-    },
+    "ingredient": { "tag": "minecraft:crimson_stems" },
     "result": "minecraft:crimson_sign",
     "count": 1
 }

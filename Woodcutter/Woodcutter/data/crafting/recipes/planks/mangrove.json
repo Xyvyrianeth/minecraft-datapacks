@@ -1,11 +1,6 @@
 {
     "type": "minecraft:stonecutting",
-    "ingredient": [
-        { "item": "minecraft:mangrove_log" },
-        { "item": "minecraft:stripped_mangrove_log" },
-        { "item": "minecraft:mangrove_wood" },
-        { "item": "minecraft:stripped_mangrove_wood" }
-    ],
+    "ingredient": { "tag": "minecraft:mangrove_logs" },
     "result": "minecraft:mangrove_planks",
     "count": 4
 }
